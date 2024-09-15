@@ -1,0 +1,286 @@
+#homes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:2rem ;
+
+}
+#homes img {
+    width: 500px;
+    height: 500px;
+    border:3px solid #2D56AB;
+    border-radius: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.home-header h2 a {
+
+    color: #2D56AB;
+}
+
+.home-header h2 a:hover {
+    background-color: #2D56AB;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+.home-header h2 {
+    padding-top: 40px;
+}
+
+.grey {
+    color:grey;
+}
+.grey strong {
+    opacity: 0.4;
+}
+
+hr {
+    opacity: 0.3;
+    color: grey;
+}
+.özel {
+    height: 100px;
+}
+
+#Bilgi {
+    background-color: grey;
+    color: white;
+}
+#Bilgi .ortalar {
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+}
+#Bilgi .ortalar .orta {
+    width: 50%;
+    text-align: center;
+    padding: 0.5rem;
+}
+#Bilgi .ortalar .orta p {
+    font-size: 1.5rem;
+    list-style-type: square;
+}
+.orta i {
+    width: 50px;
+    height: 50px;
+}
+
+.ortalar {
+    padding: 1.5rem;
+    margin: 1.5rem;
+}
+.footer-before {
+    background-color: white;
+    margin-left: 25px;
+}
+.footer-before img {
+    width: 150px;
+    height: 100px;
+    max-width: 100%;
+
+    border: 2px solid grey;
+    border-radius: 5px;
+
+}
+.fotolar {
+    margin: 0;
+    font-family: sans-serif;
+    background: #f5f6f7;
+}
+.header {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 32px;
+    background-color: #0a0a23;
+    color: #fff;
+    border-top: 4px solid grey;
+    border-bottom: 4px solid grey;
+}
+.foto {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+
+}
+
+.fotolar img {
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.fotolar::after {
+    content: "";
+    width: 350px;
+}
+
+.baslik {
+    text-align: center;
+    margin-top : 20px;
+    font-size: 30px;
+}
+
+.iletisim p {
+    text-align: center;
+    font-size: 18px;
+
+}
+.telefoncod {
+    color: #2D56AB;
+    text-decoration: underline;
+}
+
+.orta-altı p {
+    text-align: center;
+}
+
+.orta-altı, .birkik {
+    text-align: center;
+}
+
+.buyut {
+    font-size: 30px;
+    font-style: bold;
+    color: #2D56AB;
+    padding-left:400px ;
+    padding-bottom: 40px;
+}
+
+.container {
+    flex: 1;
+}
+#certificates {
+    color: #333;
+    padding: 1rem;
+}
+
+#certificate {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+#certificates .certificate {
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.certificates .certificate .certificate-image {
+    margin-right: 0.5rem;
+    position: relative;
+}
+.certificates .certificate .certificate-image img {
+    align-items: flex-start;
+    border: 2px solid grey;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+}
+.certificates .certificate .certificate-info .title {
+    letter-spacing: 1.2px;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+}
+.certificates .certificate .certificate-info .description {
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    margin-bottom: 0.25rem;
+    opacity:0.6 ;
+    margin-left: -20px;
+    text-align: justify;
+}
+
+.deneme {
+
+    text-align: center;
+}
+.container1 {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.container1 img {
+    margin-right: 20px;
+    width: 300px;
+}
+
+.container1 p {
+    flex: 1;
+}
+.sol {
+    float: left;
+}
+
+.container2 {
+    color: #333;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.yorum {
+    font-size: 20px;
+    color: #0a0a23;
+}
+.rating {
+    font-size: 20px;
+    color: #f39c12;
+    margin-bottom: 10px;
+}
+.comment {
+    font-style: italic;
+    font-size: 17px;
+}
+
+.duvar {
+    height: 5px;
+    color: white;
+    background-color: white;
+
+}
+
+.iki .module-h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    
+}
+.module-images {
+    display: flex;
+    justify-content: center;  
+}
+
+.module-images img {
+    border: 5px solid grey;
+    border-radius: 5px;
+}
+
+.row .text-wrapper {
+    letter-spacing: 1px;
+}
+.row .text-wrapper ul li {
+    list-style-type: circle;
+}
+.module-metin-sol {
+    text-align: justify;
+}
+
+.text-wrapper ul li {
+    text-align: justify;
+}
